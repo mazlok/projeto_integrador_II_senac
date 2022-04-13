@@ -1,0 +1,41 @@
+CLASSES:
+
+- main()
+- String cliente()
+**atributos com validacao:
+String nome;
+String sexo;
+Int cpf;
+String email;
+**atributos sem validacao:
+String endereco;
+Int telefone;
+String estadoCivil;
+String dataNasc;
+
+- Int produto()
+**atributos com validacao:
+String nome;
+Int codigo;
+Int quantidade;
+String desc;
+
+- String vendedor()
+String nome;
+Int vendas;
+
+INTERFACE:
+
+-telaLogin
+-telaPrincipal
+Menu para acessar as outras telas
+-telaProduto
+Incluir (com validacao de dados), Alterar, Excluir e Consultar
+-telaCliente
+Incluir (com validacao de dados), Alterar, Excluir e Consultar
+-telaVenda
+A ser realizada pelo vendedor
+Com lista de produtos
+-telaRelatorio
+Relatorio sintetico: resumo geral das vendas por periodo
+Relatorio analitico: detalhes dos produtos comprados por venda
